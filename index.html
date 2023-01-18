@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Calculator</title>
+</head>
+<body>
+
+	<div class="min-cont">
+		<div class="cal-form">
+			<input type="number" placeholder="0" id="num1">
+			<input type="number" placeholder="0" id="num2">
+
+			<div class="operator">
+				<button onclick="add()">Addition</button>
+				<button onclick="sub()">Subtraction</button>
+				<button onclick="div()">Division</button>
+				<button onclick="mul()">Multiplications</button>
+			</div>
+
+			<span id="result">0</span>
+		</div>
+	</div>
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
